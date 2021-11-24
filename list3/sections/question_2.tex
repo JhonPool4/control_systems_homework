@@ -1,0 +1,86 @@
+% question 2
+\section{Question 2}
+\paragraph{(a)} State-space matrices
+\begin{equation*}
+\mathbf{A} =
+\begin{bmatrix}
+	-\frac{1}{C R_1} & 0 \\ 0 & \frac{-R_2}{L}
+\end{bmatrix},
+\mathbf{B} =
+\begin{bmatrix}
+	\frac{1}{C R_1} \\ \frac{1}{L}
+\end{bmatrix},
+\mathbf{C} =
+\begin{bmatrix}
+	\frac{-1}{R_1} & 1
+\end{bmatrix},
+\mathbf{D} =
+\begin{bmatrix}
+\frac{1}{R_1}
+\end{bmatrix}
+\end{equation*}
+
+and state-space equations
+\begin{align*}
+	\begin{bmatrix}
+	\dot{v}_c \\ \dot{i}_l
+	\end{bmatrix}
+	=
+	\mathbf{A}
+	\begin{bmatrix}
+	v_c \\ i_l
+	\end{bmatrix}
+	 + \mathbf{B}\mathbf{u}, \\
+	\mathbf{y} = \mathbf{C}
+		\begin{bmatrix}
+		v_c \\ i_l
+		\end{bmatrix}
+	+ \mathbf{D}\mathbf{u},
+\end{align*}
+
+\paragraph{(b)} Controllability matrix can be computed as
+\begin{align*}
+\mathbf{C_{\mathrm{ctb}}} &= 
+\begin{bmatrix}
+B & AB
+\end{bmatrix},
+\\
+\mathbf{C_{\mathrm{ctb}}} &= 
+\begin{bmatrix}
+	\frac{1}{C R_1} & \frac{-1}{C^2 R^2_1} \\ \frac{1}{L} & \frac{-R_2}{L^2}
+\end{bmatrix}.
+\end{align*}
+
+System is controllable if $|\mathbf{C_{\mathrm{ctb}}}| \ne 0$. Thus, system is not controllable when relation between $R_1, R_2, C, L$ is
+\begin{equation*}
+	C R_1 = \frac{L}{R_2}.
+\end{equation*}
+
+\paragraph{(c)} Constant time of a resistant-capacitor ($RC$) circuit is $\tau_{RC}= C R_1$ and resistant-inductor ($RL$) is $\tau_{RL}=\frac{L}{R_2}$. On one hand, when $t=5\tau_{RC}$ RC circuit will set $v_c = u(t)$ v and $i_c = 0$ mA. On the other hand,  when $t=5\tau_{RL}$ RL circuit will set $v_c = 0$ v and $i_c = i_y$ mA. For this reason, both circuits must not have the same constant time because system will become unstable.
+
+\paragraph{(d)} Transfer function $(G_{(s)})$ can be computed as
+\begin{align}
+	G_{(s)}&=\mathbf{C}(\mathbf{I}s-\mathbf{A})^{-1}\mathbf{B} + \mathbf{D}, \nonumber \\
+	G_{(s)}&= \frac{(L C R^2_1)s^2 + (C R^3_1 + R_2 C R^2_1)s + R^2_1}{(L C R^3_1)s^2 + (R_2 C R^3_1 + L R^2_1)s + R_2 R^2_1},
+	\label{eq:2d_G}
+\end{align}
+when $C R_1 = \frac{L}{R_2}$ the poles and zeros are
+\begin{align*}
+\mathrm{poles:} -\frac{R_2}{L}, \\
+\mathrm{zeros:} -\frac{R_1}{L}.
+\end{align*}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

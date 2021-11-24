@@ -1,0 +1,66 @@
+% !TeX spellcheck = en_US
+%question 1
+\section{Question 1}
+A control system with state $\mathbf{x}$ is described by matrices:
+\begin{equation*}
+\mathbf{A} =
+\begin{bmatrix}
+-2 & 1 \\ -2 & 0
+\end{bmatrix},
+\mathbf{B} =
+\begin{bmatrix}
+1 \\ 3
+\end{bmatrix},
+\mathbf{C} = 
+\begin{bmatrix}
+1 & 0
+\end{bmatrix},
+\mathbf{D} = 
+\begin{bmatrix}
+0
+\end{bmatrix}
+\end{equation*}
+
+\paragraph{(a)} The transfer function ($G_{(s)}$) can be computed as
+\begin{align}
+	G_{(s)}&=\mathbf{C}(\mathbf{I}s-\mathbf{A})^{-1}\mathbf{B}, \nonumber \\
+	G_{(s)}&= \frac{s+3}{s^2 + 2s + 2},
+	\label{eq:1a_G}
+\end{align}
+
+\paragraph{(b)} Canonical form of system using \eqref{eq:1a_G} is given by
+\begin{equation*}
+\mathbf{A_c} =
+\begin{bmatrix}
+-2 & -2 \\ 1 & 0
+\end{bmatrix},
+\mathbf{B_c} =
+\begin{bmatrix}
+1 \\ 0
+\end{bmatrix},
+\mathbf{C_c} = 
+\begin{bmatrix}
+1 & 3
+\end{bmatrix},
+\mathbf{D_c} = 
+\begin{bmatrix}
+0
+\end{bmatrix}.
+\end{equation*}
+
+Considering $\mathbf{z}$ as states of canonical form and $\mathbf{z}=\mathbf{T}\mathbf{x}$. Then, matrix $\mathbf{T}$ can be computed solving $\mathbf{A T} = \mathbf{T A_c}$ and $\mathbf{b} = \mathbf{T b_c}$:
+\begin{equation*}
+\mathbf{T} = 
+\begin{bmatrix}
+	-0.08 & 0.36 \\ 0.36 & 0.88
+\end{bmatrix}.
+\end{equation*}
+ 
+
+
+
+
+
+
+
+

@@ -1,0 +1,27 @@
+%question 1
+\section{Question 1}
+Considering the transfer function ($G$)
+\begin{equation*}
+G = \frac{{w_n}^2}{s^2 + 2 w_n \zeta s + {w_n}^2},
+\end{equation*}
+\noindent where $\zeta$ is damping factor and $w_n$ is natural frequency.
+
+The modulus of $G$ at resonance frequency ($w_r$) is given by
+\begin{equation*}
+|G(j w_r)| = \frac{{w_n}^2}{\sqrt{{({w_n}^2-{w_r}^2)}^2 + (2 w_n \zeta w_r)^2}} = \frac{1}{2\zeta \sqrt{1 - \zeta^2}},
+\end{equation*}
+
+Then resonance frequency can be computed in function of $w_n$ and $\zeta$ as
+\begin{align*}
+0 &= {w_n}^4 + {w_r}^2 (-2 {w_n}^2 + 4 {w_n}^2\zeta^2) + {w_n}^4 (1 - 4\zeta^2(1 -\zeta^2)) 
+\\
+{w_r}^2 &= {w_n}^2 - 2 {w_n}^2 \zeta^2, 
+\\
+w_r& = w_n \sqrt{(1 - 2\zeta^2)}
+\end{align*}
+
+
+
+
+
+
