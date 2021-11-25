@@ -1,4 +1,3 @@
-
 % question 1
 clc, close all,
 
@@ -134,7 +133,6 @@ saveas(gcf,file_name,'epsc')
 
 
 %%
-
 clc, close all,
 
 w = linspace(0.1,10, 1000);
@@ -177,3 +175,6 @@ end
 image_path = fullfile('/home/jhon/Desktop/control_systems_homework/list4/images/question3');
 file_name     = fullfile(image_path, 'q3_bode_K_OL');
 saveas(gcf,file_name,'epsc')  
+
+
+
