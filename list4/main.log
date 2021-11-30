@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  30 NOV 2021 08:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  30 NOV 2021 20:46
 entering extended mode
 **./main.tex
 (main.tex
@@ -1123,7 +1123,7 @@ f>
 OL-eps-converted-to.pdf images/question3/q3_OL.eps>
 (epstopdf)             \includegraphics on input line 23.
 Package epstopdf Info: Output file is already uptodate.
-<images/question3/q3_OL-eps-converted-to.pdf, id=121, 385.44pt x 225.84375pt>
+<images/question3/q3_OL-eps-converted-to.pdf, id=122, 385.44pt x 225.84375pt>
 File: images/question3/q3_OL-eps-converted-to.pdf Graphic file (type pdf)
 <use images/question3/q3_OL-eps-converted-to.pdf>
 Package pdftex.def Info: images/question3/q3_OL-eps-converted-to.pdf  used on i
@@ -1146,7 +1146,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./images/question3/q3_rlocus_K_CL-eps-conver
 ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<images/question3/q3_rlocus_K_CL-eps-converted-to.pdf, id=138, 264.99pt x 212.7
+<images/question3/q3_rlocus_K_CL-eps-converted-to.pdf, id=139, 264.99pt x 212.7
 95pt>
 File: images/question3/q3_rlocus_K_CL-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1165,7 +1165,7 @@ d-to.pdf>
 bode_K_OL-eps-converted-to.pdf images/question3/q3_bode_K_OL.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<images/question3/q3_bode_K_OL-eps-converted-to.pdf, id=139, 446.66875pt x 279.
+<images/question3/q3_bode_K_OL-eps-converted-to.pdf, id=140, 446.66875pt x 279.
 0425pt>
 File: images/question3/q3_bode_K_OL-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1202,7 +1202,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./images/question3/q3_rlocus_KD_CL-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<images/question3/q3_rlocus_KD_CL-eps-converted-to.pdf, id=157, 373.395pt x 212
+<images/question3/q3_rlocus_KD_CL-eps-converted-to.pdf, id=158, 373.395pt x 212
 .795pt>
 File: images/question3/q3_rlocus_KD_CL-eps-converted-to.pdf Graphic file (type 
 pdf)
@@ -1226,7 +1226,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./images/question3/q3_bode_KD_OL-eps-convert
 ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<images/question3/q3_bode_KD_OL-eps-converted-to.pdf, id=158, 263.98625pt x 380
+<images/question3/q3_bode_KD_OL-eps-converted-to.pdf, id=159, 263.98625pt x 380
 .42125pt>
 File: images/question3/q3_bode_KD_OL-eps-converted-to.pdf Graphic file (type pd
 f)
@@ -1240,29 +1240,29 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [6 <./images/question3/q3_rlocus_KD_CL-eps-converted-to.pdf>] [7 <./images/ques
 tion3/q3_bode_KD_OL-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/question3/q3_step_KD_CL.eps>
-(epstopdf)                    date: 2021-11-24 20:03:54
-(epstopdf)                    size: 142650 bytes
+(epstopdf)                    date: 2021-11-30 20:43:26
+(epstopdf)                    size: 150518 bytes
 (epstopdf)             Output file: <images/question3/q3_step_KD_CL-eps-convert
 ed-to.pdf>
-(epstopdf)                    date: 2021-11-24 20:08:56
-(epstopdf)                    size: 63451 bytes
+(epstopdf)                    date: 2021-11-30 20:43:31
+(epstopdf)                    size: 63302 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/question3/q3_
 step_KD_CL-eps-converted-to.pdf images/question3/q3_step_KD_CL.eps>
-(epstopdf)             \includegraphics on input line 86.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./images/question3/q3_step_KD_CL-eps-convert
 ed-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> a
 llowed
-<images/question3/q3_step_KD_CL-eps-converted-to.pdf, id=184, 367.3725pt x 292.
-09125pt>
+<images/question3/q3_step_KD_CL-eps-converted-to.pdf, id=186, 369.38pt x 292.09
+125pt>
 File: images/question3/q3_step_KD_CL-eps-converted-to.pdf Graphic file (type pd
 f)
 <use images/question3/q3_step_KD_CL-eps-converted-to.pdf>
 Package pdftex.def Info: images/question3/q3_step_KD_CL-eps-converted-to.pdf  u
-sed on input line 86.
-(pdftex.def)             Requested size: 367.37158pt x 292.09052pt.
+sed on input line 84.
+(pdftex.def)             Requested size: 369.37909pt x 292.09052pt.
 [8 <./images/question3/q3_step_KD_CL-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <images/question3/q3_bode_N.eps>
 (epstopdf)                    date: 2021-11-25 08:23:49
@@ -1273,41 +1273,54 @@ o.pdf>
 (epstopdf)                    size: 56776 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/question3/q3_
 bode_N-eps-converted-to.pdf images/question3/q3_bode_N.eps>
-(epstopdf)             \includegraphics on input line 96.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./images/question3/q3_bode_N-eps-converted-t
 o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
 ed
-<images/question3/q3_bode_N-eps-converted-to.pdf, id=193, 260.975pt x 313.17pt>
+<images/question3/q3_bode_N-eps-converted-to.pdf, id=194, 260.975pt x 313.17pt>
 
 File: images/question3/q3_bode_N-eps-converted-to.pdf Graphic file (type pdf)
 <use images/question3/q3_bode_N-eps-converted-to.pdf>
 Package pdftex.def Info: images/question3/q3_bode_N-eps-converted-to.pdf  used 
-on input line 96.
+on input line 94.
 (pdftex.def)             Requested size: 260.97437pt x 313.16922pt.
 [9 <./images/question3/q3_bode_N-eps-converted-to.pdf>]
-<images/question3/sisotool_rlocus.pdf, id=204, 472.76625pt x 294.09875pt>
+<images/question3/sisotool_rlocus.pdf, id=205, 472.76625pt x 294.09875pt>
 File: images/question3/sisotool_rlocus.pdf Graphic file (type pdf)
 <use images/question3/sisotool_rlocus.pdf>
 Package pdftex.def Info: images/question3/sisotool_rlocus.pdf  used on input li
-ne 107.
+ne 105.
 (pdftex.def)             Requested size: 298.75264pt x 185.8531pt.
-<images/question3/sisotool_bode_1.pdf, id=205, 597.50829pt x 199.1691pt>
+<images/question3/sisotool_bode_1.pdf, id=206, 597.50829pt x 199.1691pt>
 File: images/question3/sisotool_bode_1.pdf Graphic file (type pdf)
 <use images/question3/sisotool_bode_1.pdf>
 Package pdftex.def Info: images/question3/sisotool_bode_1.pdf  used on input li
-ne 114.
+ne 112.
 (pdftex.def)             Requested size: 362.77525pt x 120.92465pt.
-<images/question3/sisotool_bode_2.pdf, id=206, 597.50829pt x 199.1691pt>
+<images/question3/sisotool_bode_2.pdf, id=207, 597.50829pt x 199.1691pt>
 File: images/question3/sisotool_bode_2.pdf Graphic file (type pdf)
 <use images/question3/sisotool_bode_2.pdf>
 Package pdftex.def Info: images/question3/sisotool_bode_2.pdf  used on input li
-ne 116.
+ne 114.
 (pdftex.def)             Requested size: 362.77525pt x 120.92465pt.
  [10 <./images/question3/sisotool_rlocus.pdf> <./images/question3/sisotool_bode
 _1.pdf> <./images/question3/sisotool_bode_2.pdf>]
+Overfull \hbox (29.9203pt too wide) in paragraph at lines 120--121
+\OT1/cmr/m/n/12 stiff-ness ($\OML/cmm/m/it/12 K \OT1/cmr/m/n/12 = 10[][1\OML/cm
+m/m/it/12 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 4\OML/cmm/m/it/1
+2 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 8\OML/cmm/m/it/12 ; \OT1
+/cmr/m/n/12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n
+/12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 6\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 3]$ 
+$[]$) and damp-ing ($\OML/cmm/m/it/12 D \OT1/cmr/m/n/12 = 10[][1\OML/cmm/m/it/1
+2 ; \OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 8\OML/cmm/m/it/12 ; \OT1
+/cmr/m/n/12 2\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 6\OML/cmm/m/it/12 ; \OT1/cmr/m/n
+/12 3\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 4\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OM
+L/cmm/m/it/12 :\OT1/cmr/m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 5]$
+ []
+
 Package epstopdf Info: Source file: <images/question3/q3_step_CL_PD_N.eps>
 (epstopdf)                    date: 2021-11-25 11:56:22
 (epstopdf)                    size: 123791 bytes
@@ -1317,33 +1330,33 @@ rted-to.pdf>
 (epstopdf)                    size: 70724 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=images/question3/q3_
 step_CL_PD_N-eps-converted-to.pdf images/question3/q3_step_CL_PD_N.eps>
-(epstopdf)             \includegraphics on input line 127.
+(epstopdf)             \includegraphics on input line 125.
 Package epstopdf Info: Output file is already uptodate.
 
 
 pdfTeX warning: pdflatex.exe (file ./images/question3/q3_step_CL_PD_N-eps-conve
 rted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5>
  allowed
-<images/question3/q3_step_CL_PD_N-eps-converted-to.pdf, id=248, 372.39125pt x 3
+<images/question3/q3_step_CL_PD_N-eps-converted-to.pdf, id=249, 372.39125pt x 3
 93.47pt>
 File: images/question3/q3_step_CL_PD_N-eps-converted-to.pdf Graphic file (type 
 pdf)
 <use images/question3/q3_step_CL_PD_N-eps-converted-to.pdf>
 Package pdftex.def Info: images/question3/q3_step_CL_PD_N-eps-converted-to.pdf 
- used on input line 127.
+ used on input line 125.
 (pdftex.def)             Requested size: 372.39034pt x 393.46902pt.
 ) [11 <./images/question3/q3_step_CL_PD_N-eps-converted-to.pdf>] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 8B34B94B9C5608B9F697CD06D185FDED;288.
  ) 
 Here is how much of TeX's memory you used:
- 29032 strings out of 478927
- 576702 string characters out of 2851112
- 899746 words of memory out of 3000000
+ 29033 strings out of 478927
+ 576714 string characters out of 2851112
+ 899793 words of memory out of 3000000
  46328 multiletter control sequences out of 15000+600000
  410803 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,12n,105p,857b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,12n,105p,852b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/font
@@ -1357,9 +1370,9 @@ cm/cmr8.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USERTEST/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (11 pages, 1278905 bytes).
+Output written on main.pdf (11 pages, 1279356 bytes).
 PDF statistics:
- 315 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
+ 316 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
  251 words of extra memory for PDF output out of 10000 (max. 10000000)
 

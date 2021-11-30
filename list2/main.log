@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  30 NOV 2021 20:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  30 NOV 2021 17:06
 entering extended mode
 **./main.tex
 (main.tex
@@ -962,13 +962,13 @@ LaTeX Font Info:    ... okay on input line 4.
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: heightrounded 
+* modes: heightrounded showframe 
 * h-part:(L,W,R)=(85.35826pt, 426.79135pt, 85.35826pt)
-* v-part:(T,H,B)=(85.35826pt, 674.33032pt, 85.35826pt)
+* v-part:(T,H,B)=(85.35826pt, 711.31891pt, 85.35826pt)
 * \paperwidth=597.50787pt
-* \paperheight=845.04684pt
+* \paperheight=882.03543pt
 * \textwidth=426.79135pt
-* \textheight=679.0pt
+* \textheight=708.0pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-23.91173pt
@@ -1050,7 +1050,7 @@ LaTeX Info: Redefining \nameref on input line 4.
 \@outlinefile=\write4
 \openout4 = `main.out'.
 
-<images/horizontal_fotografico_com_subtitulo_ingles.pdf, id=62, 1244.89088pt x 
+<images/horizontal_fotografico_com_subtitulo_ingles.pdf, id=66, 1244.89088pt x 
 413.58817pt>
 File: images/horizontal_fotografico_com_subtitulo_ingles.pdf Graphic file (type
  pdf)
@@ -1061,214 +1061,115 @@ Package pdftex.def Info: images/horizontal_fotografico_com_subtitulo_ingles.pdf
  [1
 
 {C:/Users/USERTEST/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./images/hor
-izontal_fotografico_com_subtitulo_ingles.pdf>] (sections/question_1.tex
+izontal_fotografico_com_subtitulo_ingles.pdf>] (sections/q_1.tex
+<images//q1.pdf, id=102, 330.05208pt x 209.78375pt>
+File: images//q1.pdf Graphic file (type pdf)
+<use images//q1.pdf>
+Package pdftex.def Info: images//q1.pdf  used on input line 8.
+(pdftex.def)             Requested size: 330.05127pt x 209.78322pt.
+) (sections/q_2.tex) (sections/q_3.tex) [2 <./images//q1.pdf>] (sections/q_4.te
+x
+<images//q4.pdf, id=124, 386.95766pt x 227.49391pt>
+File: images//q4.pdf Graphic file (type pdf)
+<use images//q4.pdf>
+Package pdftex.def Info: images//q4.pdf  used on input line 7.
+(pdftex.def)             Requested size: 386.95671pt x 227.49333pt.
+) [3 <./images//q4.pdf>] (sections/q_5.tex
 LaTeX Font Info:    Trying to load font information for U+esvect on input line 
-4.
+3.
 
 (C:\Users\USERTEST\AppData\Local\Programs\MiKTeX\tex/latex/esvect\uesvect.fd
 File: uesvect.fd 
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
 
 (C:\Users\USERTEST\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 4.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
 
 (C:\Users\USERTEST\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
-(sections/question_2.tex [2]) (sections/question_3.tex [3]
-Package epstopdf Info: Source file: <images/step_response.eps>
-(epstopdf)                    date: 2021-11-24 12:19:26
-(epstopdf)                    size: 22991 bytes
-(epstopdf)             Output file: <images/step_response-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2021-11-24 12:19:26
-(epstopdf)                    size: 7710 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/step_response
--eps-converted-to.pdf images/step_response.eps>
-(epstopdf)             \includegraphics on input line 30.
-Package epstopdf Info: Output file is already uptodate.
-<images/step_response-eps-converted-to.pdf, id=127, 248.93pt x 216.81pt>
-File: images/step_response-eps-converted-to.pdf Graphic file (type pdf)
-<use images/step_response-eps-converted-to.pdf>
-Package pdftex.def Info: images/step_response-eps-converted-to.pdf  used on inp
-ut line 30.
-(pdftex.def)             Requested size: 248.92938pt x 216.80946pt.
 )
-(sections/question_4.tex
-Package epstopdf Info: Source file: <images/plot_question_3d.eps>
-(epstopdf)                    date: 2021-11-24 12:19:26
-(epstopdf)                    size: 61006 bytes
-(epstopdf)             Output file: <images/plot_question_3d-eps-converted-to.p
-df>
-(epstopdf)                    date: 2021-11-24 12:19:26
-(epstopdf)                    size: 24598 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/plot_question
-_3d-eps-converted-to.pdf images/plot_question_3d.eps>
-(epstopdf)             \includegraphics on input line 62.
-Package epstopdf Info: Output file is already uptodate.
-<images/plot_question_3d-eps-converted-to.pdf, id=129, 262.9825pt x 228.855pt>
-File: images/plot_question_3d-eps-converted-to.pdf Graphic file (type pdf)
-<use images/plot_question_3d-eps-converted-to.pdf>
-Package pdftex.def Info: images/plot_question_3d-eps-converted-to.pdf  used on 
-input line 62.
-(pdftex.def)             Requested size: 262.98184pt x 228.85443pt.
- [4 <./images/step_response-eps-converted-to.pdf>])
-(sections/question_5.tex
-Package epstopdf Info: Source file: <images/q5_step_response_T.eps>
-(epstopdf)                    date: 2021-11-30 17:56:32
-(epstopdf)                    size: 291019 bytes
-(epstopdf)             Output file: <images/q5_step_response_T-eps-converted-to
-.pdf>
-(epstopdf)                    date: 2021-11-30 17:59:41
-(epstopdf)                    size: 83658 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/q5_step_respo
-nse_T-eps-converted-to.pdf images/q5_step_response_T.eps>
-(epstopdf)             \includegraphics on input line 20.
+Package epstopdf Info: Source file: <images//q5_system_response.eps>
+(epstopdf)                    date: 2021-11-30 14:49:03
+(epstopdf)                    size: 180671 bytes
+(epstopdf)             Output file: <images//q5_system_response-eps-converted-t
+o.pdf>
+(epstopdf)                    date: 2021-11-30 14:49:08
+(epstopdf)                    size: 77251 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images//q5_system_re
+sponse-eps-converted-to.pdf images//q5_system_response.eps>
+(epstopdf)             \includegraphics on input line 7.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex.exe (file ./images/q5_step_response_T-eps-converted-to
-.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowe
-d
-<images/q5_step_response_T-eps-converted-to.pdf, id=144, 349.305pt x 368.37625p
-t>
-File: images/q5_step_response_T-eps-converted-to.pdf Graphic file (type pdf)
-<use images/q5_step_response_T-eps-converted-to.pdf>
-Package pdftex.def Info: images/q5_step_response_T-eps-converted-to.pdf  used o
-n input line 20.
-(pdftex.def)             Requested size: 349.30414pt x 368.37534pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5 <./images/plot_question_3d-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <images/q5_bode_T2.eps>
-(epstopdf)                    date: 2021-11-30 20:17:05
-(epstopdf)                    size: 866725 bytes
-(epstopdf)             Output file: <images/q5_bode_T2-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-11-30 20:20:48
-(epstopdf)                    size: 275789 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/q5_bode_T2-ep
-s-converted-to.pdf images/q5_bode_T2.eps>
-(epstopdf)             \includegraphics on input line 34.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./images/q5_bode_T2-eps-converted-to.pdf): P
-DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/q5_bode_T2-eps-converted-to.pdf, id=166, 375.4025pt x 212.795pt>
-File: images/q5_bode_T2-eps-converted-to.pdf Graphic file (type pdf)
-<use images/q5_bode_T2-eps-converted-to.pdf>
-Package pdftex.def Info: images/q5_bode_T2-eps-converted-to.pdf  used on input 
-line 34.
-(pdftex.def)             Requested size: 375.40158pt x 212.79446pt.
-Package epstopdf Info: Source file: <images/q5_bode_T3.eps>
-(epstopdf)                    date: 2021-11-30 20:09:35
-(epstopdf)                    size: 151086 bytes
-(epstopdf)             Output file: <images/q5_bode_T3-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-11-30 20:09:37
-(epstopdf)                    size: 61702 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/q5_bode_T3-ep
-s-converted-to.pdf images/q5_bode_T3.eps>
+pdfTeX warning: pdflatex.exe (file ./images//q5_system_response-eps-converted-t
+o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
+ed
+<images//q5_system_response-eps-converted-to.pdf, id=144, 348.30125pt x 368.376
+25pt>
+File: images//q5_system_response-eps-converted-to.pdf Graphic file (type pdf)
+<use images//q5_system_response-eps-converted-to.pdf>
+Package pdftex.def Info: images//q5_system_response-eps-converted-to.pdf  used 
+on input line 7.
+(pdftex.def)             Requested size: 348.3004pt x 368.37534pt.
+) [4 <./images//q5_system_response-eps-converted-to.pdf>] (sections/q_6.tex
+<images//q6.pdf, id=158, 424.31424pt x 321.98593pt>
+File: images//q6.pdf Graphic file (type pdf)
+<use images//q6.pdf>
+Package pdftex.def Info: images//q6.pdf  used on input line 27.
+(pdftex.def)             Requested size: 424.3132pt x 321.98514pt.
+Package epstopdf Info: Source file: <images//q6_step_response_G1.eps>
+(epstopdf)                    date: 2021-11-30 16:40:11
+(epstopdf)                    size: 319812 bytes
+(epstopdf)             Output file: <images//q6_step_response_G1-eps-converted-
+to.pdf>
+(epstopdf)                    date: 2021-11-30 16:45:58
+(epstopdf)                    size: 105463 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=images//q6_step_resp
+onse_G1-eps-converted-to.pdf images//q6_step_response_G1.eps>
 (epstopdf)             \includegraphics on input line 37.
 Package epstopdf Info: Output file is already uptodate.
 
 
-pdfTeX warning: pdflatex.exe (file ./images/q5_bode_T3-eps-converted-to.pdf): P
-DF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<images/q5_bode_T3-eps-converted-to.pdf, id=167, 375.4025pt x 212.795pt>
-File: images/q5_bode_T3-eps-converted-to.pdf Graphic file (type pdf)
-<use images/q5_bode_T3-eps-converted-to.pdf>
-Package pdftex.def Info: images/q5_bode_T3-eps-converted-to.pdf  used on input 
-line 37.
-(pdftex.def)             Requested size: 375.40158pt x 212.79446pt.
-Package epstopdf Info: Source file: <images/q5_step_response_T2.eps>
-(epstopdf)                    date: 2021-11-30 20:27:00
-(epstopdf)                    size: 148739 bytes
-(epstopdf)             Output file: <images/q5_step_response_T2-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2021-11-30 20:27:22
-(epstopdf)                    size: 68184 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/q5_step_respo
-nse_T2-eps-converted-to.pdf images/q5_step_response_T2.eps>
-(epstopdf)             \includegraphics on input line 45.
-Package epstopdf Info: Output file is already uptodate.
-
-
-pdfTeX warning: pdflatex.exe (file ./images/q5_step_response_T2-eps-converted-t
-o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
-ed
-<images/q5_step_response_T2-eps-converted-to.pdf, id=168, 349.305pt x 266.9975p
-t>
-File: images/q5_step_response_T2-eps-converted-to.pdf Graphic file (type pdf)
-<use images/q5_step_response_T2-eps-converted-to.pdf>
-Package pdftex.def Info: images/q5_step_response_T2-eps-converted-to.pdf  used 
-on input line 45.
-(pdftex.def)             Requested size: 349.30414pt x 266.99683pt.
-Package epstopdf Info: Source file: <images/q5_step_response_T3.eps>
-(epstopdf)                    date: 2021-11-30 20:29:43
-(epstopdf)                    size: 120194 bytes
-(epstopdf)             Output file: <images/q5_step_response_T3-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2021-11-30 20:29:30
-(epstopdf)                    size: 54462 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=images/q5_step_respo
-nse_T3-eps-converted-to.pdf images/q5_step_response_T3.eps>
-(epstopdf)             \includegraphics on input line 48.
-runsystem(miktex-epstopdf --outfile=images/q5_step_response_T3-eps-converted-to
-.pdf images/q5_step_response_T3.eps)...executed (allowed).
-
-Package epstopdf Info: Result file: <images/q5_step_response_T3-eps-converted-t
-o.pdf>
-(epstopdf)                    date: 2021-11-30 20:29:48
-(epstopdf)                    size: 55199 bytes.
-
-
-pdfTeX warning: pdflatex.exe (file ./images/q5_step_response_T3-eps-converted-t
-o.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allow
-ed
-<images/q5_step_response_T3-eps-converted-to.pdf, id=169, 349.305pt x 214.8025p
-t>
-File: images/q5_step_response_T3-eps-converted-to.pdf Graphic file (type pdf)
-<use images/q5_step_response_T3-eps-converted-to.pdf>
-Package pdftex.def Info: images/q5_step_response_T3-eps-converted-to.pdf  used 
-on input line 48.
-(pdftex.def)             Requested size: 349.30414pt x 214.80197pt.
-) [6 <./images/q5_step_response_T-eps-converted-to.pdf>] [7 <./images/q5_bode_T
-2-eps-converted-to.pdf> <./images/q5_bode_T3-eps-converted-to.pdf>] [8 <./image
-s/q5_step_response_T2-eps-converted-to.pdf> <./images/q5_step_response_T3-eps-c
-onverted-to.pdf>] (main.aux)
+pdfTeX warning: pdflatex.exe (file ./images//q6_step_response_G1-eps-converted-
+to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allo
+wed
+<images//q6_step_response_G1-eps-converted-to.pdf, id=160, 349.305pt x 368.3762
+5pt>
+File: images//q6_step_response_G1-eps-converted-to.pdf Graphic file (type pdf)
+<use images//q6_step_response_G1-eps-converted-to.pdf>
+Package pdftex.def Info: images//q6_step_response_G1-eps-converted-to.pdf  used
+ on input line 37.
+(pdftex.def)             Requested size: 349.30414pt x 368.37534pt.
+[5 <./images//q6.pdf>]) [6 <./images//q6_step_response_G1-eps-converted-to.pdf>
+] (main.aux)
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2E033E930054871CA2B0E8F90CBFFD6D;480.
+(rerunfilecheck)             Checksum: 499B08CBCBCD93690F0A370EB7E1DF38;576.
  ) 
 Here is how much of TeX's memory you used:
- 29008 strings out of 478927
- 575109 string characters out of 2851112
- 905244 words of memory out of 3000000
- 46303 multiletter control sequences out of 15000+600000
- 411424 words of font info for 58 fonts, out of 8000000 for 9000
+ 28973 strings out of 478927
+ 573724 string characters out of 2851112
+ 896712 words of memory out of 3000000
+ 46281 multiletter control sequences out of 15000+600000
+ 410503 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,15n,105p,1062b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,11n,105p,511b,361s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx8.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USERTEST/AppData/Local/Programs/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USERTEST/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USERTEST/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/User
-s/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.p
-fb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmr6.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USERTEST/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USERTEST/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (8 pages, 836164 bytes).
+ic/amsfonts/cm/cmmi12.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USERTEST/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/USERTEST/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USERTEST/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/
+USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+<C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmsy10.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (6 pages, 865141 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 237 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 242 PDF objects out of 1000 (max. 8388607)
+ 26 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 

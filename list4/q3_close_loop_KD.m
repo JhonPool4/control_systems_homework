@@ -84,7 +84,7 @@ s = tf('s');
 sys_2_KD_OL = (kd*s + kp)*(D*s + K)/( (I1*I2)*s^4 + (I1*D+I2*D)*s^3 + (I1*K+I2*K)*s^2);
 sys_2_KD_CL = feedback(sys_2_KD_OL,1);
 
-t=0:0.1:500;
+t=0:0.1:2500;
 u = 1 + 0*t;
 y2 = lsim(sys_2_KD_CL, u, t);
 uu = u;
@@ -97,7 +97,7 @@ figure(1), hold on, box on, grid on,
     ax.FontSize = 10;
     set(gca,'TickLabelInterpreter','latex')   
 
-% Save image
+%% Save image
 image_path = fullfile('C:\Users\USERTEST\Desktop\control_systems_homework\list4\images\question3');
 file_name     = fullfile(image_path, 'q3_step_KD_CL');
 saveas(gcf,file_name,'epsc')  

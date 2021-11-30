@@ -45,7 +45,7 @@ G_2(s) &=\frac{\theta_2(s)}{\tau(s)} = \frac{Ds + k}{I_1 I_2 s^4 + s^3(I_1 D + I
 
 
 
-\paragraph{(e)} On one hand,  Figure  \ref{fig:q3_rlocus_KD_CL} describes root-locus of close-loop system with proportional-derivative gain. In this figure, poles are located in the left half-plane for proportional gain from $0.0001$ to $0.275$ and derivative gain from $0.00001$ to $0.0275$; then, first and second poles ($p_1, p_2$) move to right half-plane and close-loop system becomes unstable. On the other hand, Figure \ref{fig:q3_bode_KD_OL} describes bode diagram of close-loop system with proportional-derivative control method. In this figure, gain margin is greater than $0$ dB for proportional and derivative gains lower than $0.275$ and $0.0275$, respectively. Likewise, gain margin is lower than $0$ dB, and close-loop system unstable, when resonance peak is above $0$  dB. 
+\paragraph{(e)} On one hand,  Figure  \ref{fig:q3_rlocus_KD_CL} describes root-locus of close-loop system with proportional-derivative gain. In this figure, poles are located in the left half-plane for proportional gain from $0.0001$ to $0.275$ and derivative gain from $0.00001$ to $0.0275$; then, first and second poles ($p_1, p_2$) move to right half-plane and close-loop system becomes unstable. On the other hand, Figure \ref{fig:q3_bode_KD_OL} describes bode diagram of open-loop system with proportional-derivative control method. In this figure, gain margin is greater than $0$ dB for proportional and derivative gains lower than $0.275$ and $0.0275$, respectively. Likewise, gain margin is lower than $0$ dB (close-loop system unstable) when resonance peak is above $0$  dB. 
 
 
 \begin{figure}[h!]
@@ -59,12 +59,12 @@ G_2(s) &=\frac{\theta_2(s)}{\tau(s)} = \frac{Ds + k}{I_1 I_2 s^4 + s^3(I_1 D + I
 \begin{figure}[h!]
 	\centering
 	\includegraphics{images/question3/q3_bode_KD_OL.eps}
-	\caption{Frequency response of open-loop system $G_2(s)=\frac{\theta_2(s)}{\tau(s)}$.}
+	\caption{Frequency response of open-loop system $G_{PD}(s) G_2(s)$.}
 	\label{fig:q3_bode_KD_OL}
 \end{figure}
 
 \newpage
-\paragraph{(f)}  Figure \ref{fig:q3_rlocus_KD_CL} indicates that close-loop system have imaginary poles two times. On one hand, at the beginning ($k_p=0.0001$ and $k_d=0.0001$), third and fourth poles are $+0.0095i$ and $-0.0095i$, respectively. On the other hand, at the middle  ($k_p=0.275$ and $k_d=0.0275$), first and second poles are $+1.3832i$ and $-1.3832i$, respectively. Likewise,  close-loop system is stable for proportional gain from $0.0001$ to $0.275$ and derivative gain from $0.00001$ to $0.0275$, thus, the proportional gain $kp=0.04$ and derivative gain $kd=0.004$ will be used. 
+\paragraph{(f)}  Figure \ref{fig:q3_rlocus_KD_CL} indicates that close-loop system have imaginary poles two times. On one hand, at the beginning (control gains: $k_p=0.0001$ and $k_d=0.0001$), third and fourth poles are $+0.0095i$ and $-0.0095i$, respectively. On the other hand, at the middle  (control gains: $k_p=0.275$ and $k_d=0.0275$), first and second poles are $+1.3832i$ and $-1.3832i$, respectively. Likewise,  close-loop system is stable for proportional gain from $0.0001$ to $0.275$ and derivative gain from $0.00001$ to $0.0275$, thus, the proportional gain $kp=0.04$ and derivative gain $kd=0.004$ will be used. 
 
 Then, poles are:
 \begin{align*}
@@ -75,21 +75,19 @@ Then, poles are:
 \end{align*}
 \noindent dominant poles are $p_3$ and $p_4$ because they are more closer to $0$. Hence, Figure \ref{fig:q3_step_KD_CL} describes step response of close-loop system and time characteristic are:
 \begin{align*}
-	w_n &= 0.1923 \textrm{ } \mathrm{\frac{rad}{s}}, \\
-	\zeta &= 0.0962, \\
-	\%PO &= 73 \%, \\
-	Ts &= 216 \textrm{ } \mathrm{s}. 
+	\%PO &= 100 \%, \\
+	Ts &= 2480 \textrm{ } \mathrm{s}. 
 \end{align*}
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics{images/question3/q3_step_KD_CL.eps}
-	\caption{Step response of close-loop system with proportional-derivative control method.}
+	\caption{Step response of close-loop system with proportional-derivative control method (control gains: $k_p = 0.04$ and $k_d=0.004$).}
 	\label{fig:q3_step_KD_CL}
 \end{figure}
 
 \newpage
-\paragraph{(g)} Figure \ref{fig:notch_filter} describes bode diagram of Notch filter $N(s)=\frac{s^2 + 1}{(s+10)^2}$. On one hand, magnitude graph indicates that filter will help to increase gain margin of close-loop system. On the other hand, phase graph indicates that filter will to increase phase margin with a shift of $+180^{\circ}$.
+\paragraph{(g)} Figure \ref{fig:notch_filter} describes bode diagram of Notch filter $N(s)=\frac{s^2 + 1}{(s+10)^2}$. On one hand, magnitude graph indicates that filter will help to increase gain margin of close-loop system. On the other hand, phase graph indicates that filter will help to increase phase margin with a shift of $+180^{\circ}$.
 
 \begin{figure}[h!]
 	\centering
@@ -99,7 +97,7 @@ Then, poles are:
 \end{figure}
 
 \newpage
-\paragraph{(h)} Figure \ref{fig:q3_CL_N_PD_rlocus} and \ref{fig:q3_CL_N_PD_bode} describe time and frequency response of close loop system with filter of Notch and proportional-derivative control method. In these figures, time requirements (overshoot $<15\%$ and settling time $<20$ ) and frequency requirements ($PM>50^{\circ}$) are satisfied. Then, proportional-derivative can be computed as $PD =500 s + 50$. 
+\paragraph{(h)} Figure \ref{fig:q3_CL_N_PD_rlocus} and \ref{fig:q3_CL_N_PD_bode} describe time and frequency response of close-loop system with filter of Notch and proportional-derivative control method. In these figures, time requirements (overshoot $<15\%$ and settling time $<20$ ) and frequency requirements ($PM>50^{\circ}$) are satisfied. After that, proportional-derivative can be computed as $PD = 500 s + 50$. 
 
 
 \begin{figure}[h!]
@@ -119,7 +117,7 @@ Then, poles are:
 \end{figure}
 
 \newpage
-\paragraph{(i)} Figure \ref{fig:q3_step_CL_PD_N} describes step response for six different values of stiffness  ($K=10^{-1}[1, 1.4, 1.8, 2.2, 2.6, 3]$ $\mathrm{\frac{N.m}{rad}}$) and damping ($D=10^{-3}[1, 1.8, 2.6, 3.4, 4.2, 5]$ $\mathrm{\frac{N.m.s}{rad}}$).  Hence, system with lower $K$, $D$ (line blue)have low overshoot and high steady-state error; whereas system with high $K$, $D$ (line light blue) have high overshoot and low steady-state error.
+\paragraph{(i)} Figure \ref{fig:q3_step_CL_PD_N} describes step response of close-loop system for six different values of stiffness  ($K=10^{-1}[1, 1.4, 1.8, 2.2, 2.6, 3]$ $\mathrm{\frac{N.m}{rad}}$) and damping ($D=10^{-3}[1, 1.8, 2.6, 3.4, 4.2, 5]$ $\mathrm{\frac{N.m.s}{rad}}$).  Hence, system with lower $K$, $D$ (line color blue) have low overshoot and high steady-state error; whereas system with high $K$, $D$ (line color light blue) have high overshoot and low steady-state error.
 
 
 \begin{figure}[h!]
