@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  25 NOV 2021 12:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.27)  30 NOV 2021 08:58
 entering extended mode
 **./main.tex
 (main.tex
@@ -1146,7 +1146,7 @@ Package epstopdf Info: Output file is already uptodate.
 pdfTeX warning: pdflatex.exe (file ./images/question3/q3_rlocus_K_CL-eps-conver
 ted-to.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> 
 allowed
-<images/question3/q3_rlocus_K_CL-eps-converted-to.pdf, id=137, 264.99pt x 212.7
+<images/question3/q3_rlocus_K_CL-eps-converted-to.pdf, id=138, 264.99pt x 212.7
 95pt>
 File: images/question3/q3_rlocus_K_CL-eps-converted-to.pdf Graphic file (type p
 df)
@@ -1165,7 +1165,7 @@ d-to.pdf>
 bode_K_OL-eps-converted-to.pdf images/question3/q3_bode_K_OL.eps>
 (epstopdf)             \includegraphics on input line 41.
 Package epstopdf Info: Output file is already uptodate.
-<images/question3/q3_bode_K_OL-eps-converted-to.pdf, id=138, 446.66875pt x 279.
+<images/question3/q3_bode_K_OL-eps-converted-to.pdf, id=139, 446.66875pt x 279.
 0425pt>
 File: images/question3/q3_bode_K_OL-eps-converted-to.pdf Graphic file (type pdf
 )
@@ -1343,7 +1343,7 @@ Here is how much of TeX's memory you used:
  46328 multiletter control sequences out of 15000+600000
  410803 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,12n,105p,824b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 96i,12n,105p,857b,502s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmex10.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/font
@@ -1357,7 +1357,7 @@ cm/cmr8.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmsy10.pfb><C:/Users/USERTEST/AppData/Local/Programs/MiKTeX/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USERTEST/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (11 pages, 1278757 bytes).
+Output written on main.pdf (11 pages, 1278905 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  38 named destinations out of 1000 (max. 500000)

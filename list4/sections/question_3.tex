@@ -16,7 +16,7 @@ G_2(s) &=\frac{\theta_2(s)}{\tau(s)} = \frac{Ds + k}{I_1 I_2 s^4 + s^3(I_1 D + I
 \end{align*}
 
 
-\paragraph{(c)} Figure \ref{fig:q3_OL} describes time-response of open-loop systems ($G_1(s)$ and $G_2(s)$) for different values of stiffness ($K=10[1, 1.4, 1.8, 2.2, 2.6, 3]$ $\mathrm{\frac{N.m}{rad}}$) and damping ($D=1000[1, 1.8, 2.6, 3.4, 4.2, 5]$ $\mathrm{\frac{N.m.s}{rad}}$).
+\paragraph{(c)} Figure \ref{fig:q3_OL} describes time-response of open-loop systems ($G_1(s)$ and $G_2(s)$) for different values of stiffness ($K=10^{-1}[1, 1.4, 1.8, 2.2, 2.6, 3]$ $\mathrm{\frac{N.m}{rad}}$) and damping ($D=10^{-3}[1, 1.8, 2.6, 3.4, 4.2, 5]$ $\mathrm{\frac{N.m.s}{rad}}$).
 
 \begin{figure}[h!]
 \centering
@@ -45,7 +45,7 @@ G_2(s) &=\frac{\theta_2(s)}{\tau(s)} = \frac{Ds + k}{I_1 I_2 s^4 + s^3(I_1 D + I
 
 
 
-\paragraph{(e)} On one hand,  Figure  \ref{fig:q3_rlocus_KD_CL} describes root-locus of close-loop system with proportional-derivative gain. In this figure, poles are located in the left half-plane for proportional gain from $0.0001$ to $0.275$ and derivative gain from $0.00001$ to $0.0275$; then, first and second poles ($p_1, p_2$) move to right half-plane and close-loop system becomes unstable. On the other hand, Figure \ref{fig:q3_bode_KD_OL} describes bode diagram of close-loop system with proportional-derivative control method. In this figure, gain margin is greater than $0$ dB for proportional and derivative gains lower than $0.275$ and $0.0275$, respectively. Likewise, resonance peak is above $0$  dB when gain margin is lower than $0$ dB.
+\paragraph{(e)} On one hand,  Figure  \ref{fig:q3_rlocus_KD_CL} describes root-locus of close-loop system with proportional-derivative gain. In this figure, poles are located in the left half-plane for proportional gain from $0.0001$ to $0.275$ and derivative gain from $0.00001$ to $0.0275$; then, first and second poles ($p_1, p_2$) move to right half-plane and close-loop system becomes unstable. On the other hand, Figure \ref{fig:q3_bode_KD_OL} describes bode diagram of close-loop system with proportional-derivative control method. In this figure, gain margin is greater than $0$ dB for proportional and derivative gains lower than $0.275$ and $0.0275$, respectively. Likewise, gain margin is lower than $0$ dB, and close-loop system unstable, when resonance peak is above $0$  dB. 
 
 
 \begin{figure}[h!]
@@ -99,7 +99,7 @@ Then, poles are:
 \end{figure}
 
 \newpage
-\paragraph{(h)} Figure \ref{fig:q3_CL_N_PD_rlocus} and \ref{fig:q3_CL_N_PD_bode} describe time and frequency response of close loop system with filter of Notch and proportional-derivative control method. In these figures, time requirements (overshoot $<15\%$ and settling time $<20$ ) and frequency requirements ($PM>50^{\circ}$) are satisfied. 
+\paragraph{(h)} Figure \ref{fig:q3_CL_N_PD_rlocus} and \ref{fig:q3_CL_N_PD_bode} describe time and frequency response of close loop system with filter of Notch and proportional-derivative control method. In these figures, time requirements (overshoot $<15\%$ and settling time $<20$ ) and frequency requirements ($PM>50^{\circ}$) are satisfied. Then, proportional-derivative can be computed as $PD =500 s + 50$. 
 
 
 \begin{figure}[h!]
